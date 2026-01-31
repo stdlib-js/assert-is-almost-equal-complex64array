@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@deno/mod.js';
+import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@v0.1.0-deno/mod.js';
 ```
 
 #### isAlmostEqualComplex64Array( v1, v2, maxULP )
@@ -95,7 +95,7 @@ bool = isAlmostEqualComplex64Array( x, [ 1.0, 2.0 ], 1 );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@deno/mod.js';
+import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@v0.1.0-deno/mod.js';
 
 var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 var y = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
