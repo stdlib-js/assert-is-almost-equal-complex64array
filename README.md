@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-almost-equal-complex64array/tags). For example,
+
+```javascript
 import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@v0.1.0-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ bool = isAlmostEqualComplex64Array( x, [ 1.0, 2.0 ], 1 );
 <script type="module">
 
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@v0.1.0-esm/index.mjs';
+import isAlmostEqualComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-complex64array@esm/index.mjs';
 
 var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 var y = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
